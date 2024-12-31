@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./contact.css" />
+    <title>Contact | Charity</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="navBar">
+        <div class="logo">
+          <img src="../assets/logo.png" alt="Logo" height="40px" />
+        </div>
+        <nav class="navList">
+          <ul class="nav-list">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./ourWork.html">Our Work</a></li>
+            <li><a href="./stories.html">Stories</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="donate-btn"><a href="#donate">Donate</a></button>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      </div>
+
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Contact</h1>
+          <p>
+            Connect with us for more information about our Non-profit
+            Organisation<br />
+            and how you can contribute to our worthy causes.
+          </p>
+        </div>
+      </section>
+    </header>
+    <div class="cards-wrapper">
+      <div class="cards">
+        <div class="card-01">
+          <p>PHONE</p>
+          <h6>
+            Tel: (555) 123-2222 <br />
+            Fax: (555) 123-2225
+          </h6>
+        </div>
+        <div class="card-02">
+          <p>DONATION CENTER</p>
+          <h6>
+            PO Box 1234 Demotown, <br />
+            MD12345-5026
+          </h6>
+        </div>
+        <div class="card-03">
+          <p>NEED ASSISTANCE</p>
+          <h6>Check out our Help Center.</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="getInTouch-part-wrapper">
+      <div class="getInTouch-part">
+        <div class="contact-text">
+          <p id="getInTouch">GET IN TOUCH</p>
+          <h2>How can we help you?</h2>
+          <p>
+            Our Non-profit Organisation is dedicated to helping those in need.
+            Contact us to see how we can help you or someone you know.
+          </p>
+          <div class="Offices">
+            <h6>Headquarter</h6>
+            <p>
+              2715 Demo St. San Jose, South Dakota 83475 <br />(205) 555-0100
+            </p>
+            <hr style="margin-top: 20px" />
+            <h6>Illinois Office</h6>
+            <p>
+              2972 Example Rd. Santa Ana, Illinois 85486 <br />(603) 555-0123
+            </p>
+            <hr style="margin-top: 20px" />
+            <h6 style="color: #2c3a04">Follow us on</h6>
+            <div class="social-links">
+              <img src="../assets/facebook.png" alt="fb-icon" />
+              <img src="../assets/twitter.png" alt="twitter-icon" />
+              <img src="../assets/instagram.png" alt="insta-icon" />
+              <img src="../assets/youtube.png" alt="youtube-icon" />
+            </div>
+          </div>
+        </div>
+        <div class="form">
+          <form onsubmit="submit()">
+            <div class="inputText">
+              <label for="name">Full Name<span>*</span></label
+              ><br />
+              <input type="text" placeholder="Steve" /><br />
+            </div>
+            <div class="inputText">
+              <label for="name">Email<span>*</span></label
+              ><br />
+              <input type="text" placeholder="example@mail.com" /><br />
+            </div>
+            <div class="inputText">
+              <label for="name">Subject<span>*</span></label
+              ><br />
+              <input type="text" placeholder="Subject" /><br />
+            </div>
+            <div class="inputText">
+              <label for="name">Message</label><br />
+              <textarea type="text" placeholder="Enter your message "></textarea
+              ><br />
+            </div>
+
+            <a href="#" id="submitBtn">Send Message</a>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="whereWork">
+      <p id="whereWork">Where we work</p>
+      <h2>
+        More than 70,000 staff in 120 countries, serving those in need. 99% of
+        them are locals. All with your support.
+      </h2>
+    </div>
+    <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497465.0074774156!2d79.67504797343751!3d13.070936199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526671cf9c4393%3A0x8b3afd7d5f1cd716!2sDamien%20Foundation%20India%20Trust!5e0!3m2!1sen!2sin!4v1734336348384!5m2!1sen!2sin"
+        width="100%"
+        height="450"
+        style="
+          border: 0;
+          padding: 40px 40px 110px 40px;
+          background-color: #f7f9f1;
+          margin-bottom: 40px;
+          border-bottom: 1px solid black;
+        "
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <footer class="footer-wrapper">
+      <div class="footer">
+        <div>
+          <ul>
+            <li>
+              <img src="../assets/logo_black.png" alt="logo" />
+            </li>
+            <li>
+              <p>
+                The power of giving: Support a cause and make a difference
+                through charity.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <h6>About Us</h6>
+            <li>
+              <a href="#">Our History</a>
+            </li>
+            <li>
+              <a href="#">What We Believe</a>
+            </li>
+            <li>
+              <a href="#">Our Programs</a>
+            </li>
+            <li>
+              <a href="#">Partners</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <h6>Ways To Give</h6>
+            <li>
+              <a href="#">Fundraise</a>
+            </li>
+            <li>
+              <a href="#">Planned Giving</a>
+            </li>
+            <li>
+              <a href="#">Brand Partnership</a>
+            </li>
+            <li>
+              <a href="#">Legacy Giving</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <h6>Contact Info</h6>
+            <li>
+              <a href="#">1234 Thornridge Cir. Syracuse,</a>
+            </li>
+            <li>
+              <a href="#">Connecticut 56789</a>
+            </li>
+            <li>
+              <a href="#">(406) 555-0121</a>
+            </li>
+            <li>
+              <a href="#">mail@example.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr style="color: gray" />
+      <div class="copyrights-part">
+        <div>© 2024 Non-Profit Organization. All rights reserved.</div>
+        <div class="social-links">
+          <img src="../assets/facebook.png" alt="fb-icon" />
+          <img src="../assets/twitter.png" alt="twitter-icon" />
+          <img src="../assets/instagram.png" alt="insta-icon" />
+          <img src="../assets/youtube.png" alt="youtube-icon" />
+        </div>
+      </div>
+    </footer>
+
+    <script src="../index.js"></script>
+  </body>
+</html>
