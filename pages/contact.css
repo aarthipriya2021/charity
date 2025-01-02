@@ -98,7 +98,7 @@ body {
   font-weight: 400;
   margin-bottom: 1rem;
   letter-spacing: 0.3px;
-  line-height: 23px;
+  line-height: 25px;
   text-align: left;
   padding-left: 40px;
 }
@@ -335,6 +335,7 @@ form textarea {
   justify-content: space-evenly;
   margin-bottom: 3em;
   margin-top: 40px;
+  background-color: white;
 }
 .footer img {
   height: 40px;
@@ -343,6 +344,7 @@ form textarea {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 14px;
+  line-height: 25px;
 }
 .footer p {
   width: 300px;
@@ -818,6 +820,11 @@ form textarea {
 }
 
 @media (max-width: 500px) {
+  .donate-btn {
+    padding: 10px 10px;
+    font-size: 13px;
+  }
+  
   .hero-content h1 {
     font-size: 1.8rem;
   }

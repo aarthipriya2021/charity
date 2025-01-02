@@ -98,7 +98,7 @@ body {
   font-weight: 400;
   margin-bottom: 1rem;
   letter-spacing: 0.3px;
-  line-height: 23px;
+  line-height: 25px;
   text-align: left;
   padding-left: 40px;
 }
@@ -130,8 +130,6 @@ body {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  /* background-color: #f7f9f1; */
-  margin-top: 100px;
   margin-bottom: 40px;
 }
 .about img {
@@ -231,12 +229,12 @@ body {
 .numbers {
   font-weight: 800;
   font-size: 30px;
-  color: gray;
+  color: #d2d8c0;
   margin-bottom: 9px;
 }
 .headings {
-  font-weight: 800;
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 24px;
   color: black;
   margin-bottom: 9px;
 }
@@ -274,27 +272,37 @@ body {
   margin-bottom: 8px;
   font-size: 16px;
   font-weight: 400;
+  color: #46512a;
   margin-bottom: 15px;
+  line-height: 25px;
 }
 .card-02 p {
   margin-top: 8px;
   margin-bottom: 8px;
   font-size: 16px;
   font-weight: 400;
+  color: #46512a;
   margin-bottom: 15px;
+  line-height: 25px;
 }
 .card-03 p {
   margin-top: 8px;
   margin-bottom: 8px;
   font-size: 16px;
   font-weight: 400;
+  color: #46512a;
   margin-bottom: 15px;
+  line-height: 25px;
+}
+
+.cards img{
+  margin: 0px 0px -4px 5px;
 }
 
 .video-thumbnail {
   position: relative;
   width: 100%;
-  /* max-width: 800px; */
+  background-color: #f7f9f1;
   margin: auto;
   padding: 60px;
   margin-top: 60px;
@@ -338,7 +346,7 @@ body {
   font-weight: bold;
 }
 .make_difference h3 {
-  /* margin: 10px; */
+  margin-top: 20px;
   font-size: 14px !important;
   letter-spacing: 1px;
   font-weight: 400;
@@ -396,9 +404,9 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 60px;
-  background-color: #ffffff;
+  background-color: #f7f9f1;
   border-radius: 10px;
-  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  border-bottom: 1px solid black;
 }
 
 .image-container {
@@ -473,6 +481,7 @@ li img{
   justify-content: space-evenly;
   margin-bottom: 3em;
   margin-top: 40px;
+  background-color: white;
 }
 .footer img {
   height: 40px;
@@ -486,6 +495,7 @@ li img{
   width: 300px;
   color: #46512a;
   margin-top: 30px;
+  line-height: 25px;
 }
 .footer li {
   text-decoration: none;
@@ -816,6 +826,11 @@ li img{
 }
 
 @media (max-width: 500px) {
+  .donate-btn {
+    padding: 10px 10px;
+    font-size: 13px;
+  }
+  
   .hero-content h1 {
     font-size: 1.8rem;
   }
@@ -935,6 +950,13 @@ li img{
     width: fit-content;
     text-align: center;
     line-height: 25px;
+  }
+
+  .content-container h2{
+    width: fit-content;
+  }
+  .content-container p{
+    width: fit-content;
   }
 
   .footer {

@@ -8,6 +8,7 @@
   body {
     font-family: "DM Sans", "sans";
     line-height: 1.3;
+    /* background-color: #f7f9f1; */
   }
   /* Header Styling */
   .header {
@@ -98,7 +99,7 @@
   font-weight: 400;
   margin-bottom: 1rem;
   letter-spacing: 0.3px;
-  line-height: 23px;
+  line-height: 25px;
   text-align: left;
   padding-left: 40px;
 }
@@ -128,6 +129,7 @@
 .ourWork-imgs img {
   display: flex;
   /* flex-direction: row; */
+  /* gap: 20px; */
 }
 
 .ourWork-imgs img {
@@ -137,12 +139,16 @@
 .ourWork-imgs {
   display: flex;
   justify-content: space-around;
-  /* padding: 40px; */
+  padding: 60px;
+  gap: 10px;
 }
 .twoImgs {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+.twoImgs img{
+  width: 250px;
 }
 
 .weWork-text-wrapper {
@@ -172,20 +178,23 @@
   text-decoration: none;
   color: black;
 }
-
+.text_image-wrapper{
+  padding-top: 1px;
+  background-color: #f7f9f1;
+  border-bottom: 1px solid black;
+}
 .text_image {
   display: flex;
   justify-content: space-around;
-  margin-top: 8em;
-  margin-bottom: 3em;
+  margin: 100px 40px 40px 40px;
   padding-bottom: 8em;
-  border-bottom: 1px solid black;
 }
 .text_image h3 {
   font-size: 40px;
   font-weight: 600;
   color: #2c3a04;
   letter-spacing: 1.5px;
+  width: 365px;
 }
 .text_image p {
   font-size: 16px;
@@ -193,6 +202,7 @@
   color: #46512a;
   line-height: 25px;
   margin-top: 25px;
+  width: 365px;
 }
 
 .images {
@@ -215,7 +225,14 @@
 }
 .text_image h3,
 p {
-  width: 365px;
+  /* width: 365px; */
+}
+
+.our-impact img{
+  margin: 0px 0px -4px 5px;
+}
+.weWork-text img{
+  margin: 0px 0px -4px 5px;
 }
 
 
@@ -228,6 +245,7 @@ p {
   justify-content: space-evenly;
   margin-bottom: 3em;
   margin-top: 40px;
+  background-color: white;
 }
 .footer img {
   height: 40px;
@@ -241,6 +259,7 @@ p {
   width: 300px;
   color: #46512a;
   margin-top: 30px;
+  line-height: 25px;
 }
 .footer li {
   text-decoration: none;
@@ -366,6 +385,17 @@ p {
       background-color: #5b9f0c;
       color: white;
     }
+    .weWork-text-wrapper p{
+      width: fit-content;
+    }
+    .images{
+      display: flex;
+      flex-direction: column;
+    }
+    .twoImages img{
+      display: flex;
+      flex-direction: column;
+    }
     .work-text {
       display: flex;
       flex-direction: column;
@@ -388,6 +418,10 @@ p {
       font-weight: 400;
       color: #46512a;
       line-height: 25px;
+    }
+    .weWork-text-wrapper{
+      display: flex;
+      flex-direction: column;
     }
     hr{
       display: none;
@@ -416,6 +450,11 @@ p {
   }
   
   @media (max-width: 500px) {
+    .donate-btn {
+      padding: 10px 10px;
+      font-size: 13px;
+    }
+
     .hero-content h1 {
       font-size: 1.8rem;
     }
@@ -463,6 +502,14 @@ p {
       border-radius: 16px;
     }
     
+    .images{
+      display: flex;
+      flex-direction: column;
+    }
+    .twoImages img{
+      display: flex;
+      flex-direction: column;
+    }
     .ourWork-imgs {
       display: flex;
       justify-content: space-around;
@@ -475,6 +522,9 @@ p {
     }
     #bigImg{
       width: -webkit-fill-available;
+    }
+    .weWork-text-wrapper p{
+      width: fit-content;
     }
 
 
